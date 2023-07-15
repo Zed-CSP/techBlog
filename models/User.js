@@ -37,7 +37,7 @@ User.init(
         timestamps: false, // Don't add the timestamp attributes (updatedAt, createdAt)
         freezeTableName: true, // Don't pluralize the table name
         underscored: true, // Use snake_case rather than camelCase column names
-        modelName: 'user', // Use {modelName} rather than 'User' as the model name
+        modelName: 'user', // Use {user's name} rather than 'User' as the model name
     }
 );
 
