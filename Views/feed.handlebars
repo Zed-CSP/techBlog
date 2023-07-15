@@ -1,0 +1,8 @@
+<h1>Todays Tech Blog News!</h1>
+
+<h2>Latest Activity:</h2>
+
+{{#each posts as |post|}}
+    <h3><a href="/post/{{post.id}}">{{post.title}}</a></h3>
+    {{> attribution post=post}}
+{{/each}}
